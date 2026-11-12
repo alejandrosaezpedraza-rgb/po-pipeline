@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# runtime state
+state/
+erp/data/
+customers/
+
+# caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

@@ -1,0 +1,26 @@
+# Render Blueprint: one free web service running the hosted demo (app + demo ERP).
+# New → Blueprint on render.com, pick this repository, then type a DEMO_PASSWORD when asked.
+services:
+  - type: web
+    name: po-intake-demo
+    runtime: python
+    plan: free
+    buildCommand: python -m compileall -q app erp
+    startCommand: python -m app.hosted
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      # The 5 sample POs only, played back without AI. No API key needed.
+      - key: PO_EXTRACTOR
+        value: replay
+      # Confirmation emails are saved, never sent.
+      - key: SEND_MODE
+        value: dry
+      # The password visitors type. Render asks for it when you create the service.
+      - key: DEMO_PASSWORD
+        sync: false
+      # Keeps visitors signed in across restarts. Render generates it.
+      - key: SESSION_SECRET
+        generateValue: true

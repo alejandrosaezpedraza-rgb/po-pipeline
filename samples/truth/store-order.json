@@ -1,0 +1,85 @@
+{
+  "po_number": "PHH-0417-1103",
+  "po_date": "2026-10-30",
+  "requested_ship_date": "2026-11-16",
+  "buyer": {
+    "company": "Pinecrest Hardware & Home",
+    "contact_name": "Priya Natarajan",
+    "email": "store0417@pinecresthome.example",
+    "phone": "(555) 018-0417"
+  },
+  "bill_to": {
+    "name": "Pinecrest Home Centers LLC",
+    "street": "1 Pinecrest Plaza",
+    "city": "Albany",
+    "state": "NY",
+    "zip": "12207"
+  },
+  "ship_to": {
+    "name": "Pinecrest Hardware & Home",
+    "street": "880 Route 9",
+    "city": "Fishkill",
+    "state": "NY",
+    "zip": "12524",
+    "store_number": "0417"
+  },
+  "payment_terms": "2% 10 Net 30",
+  "currency": "USD",
+  "lines": [
+    {
+      "line": 1,
+      "sku": "WB-6030",
+      "customer_item": "",
+      "description": "Steel workbench 60x30 hardwood top",
+      "qty": 3,
+      "uom": "EA",
+      "unit_price": 685.0,
+      "extended": 2055.0
+    },
+    {
+      "line": 2,
+      "sku": "WB-PEG",
+      "customer_item": "",
+      "description": "Pegboard back panel 60\"",
+      "qty": 6,
+      "uom": "EA",
+      "unit_price": 98.0,
+      "extended": 588.0
+    },
+    {
+      "line": 3,
+      "sku": "WB-LGT",
+      "customer_item": "",
+      "description": "LED work light kit",
+      "qty": 6,
+      "uom": "EA",
+      "unit_price": 64.5,
+      "extended": 387.0
+    },
+    {
+      "line": 4,
+      "sku": "SH-6036",
+      "customer_item": "",
+      "description": "Boltless shelving 60x36x18, 4 shelf",
+      "qty": 4,
+      "uom": "EA",
+      "unit_price": 189.5,
+      "extended": 758.0
+    },
+    {
+      "line": 5,
+      "sku": "CT-SRV",
+      "customer_item": "",
+      "description": "Two-shelf service cart",
+      "qty": 2,
+      "uom": "EA",
+      "unit_price": 289.0,
+      "extended": 578.0
+    }
+  ],
+  "subtotal": 4366.0,
+  "freight": 125.0,
+  "tax": 349.28,
+  "total": 4840.28,
+  "notes": "Call the store before delivery, rear dock."
+}

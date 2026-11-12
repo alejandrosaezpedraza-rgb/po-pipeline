@@ -1,0 +1,75 @@
+{
+  "po_number": "88213",
+  "po_date": "2026-10-29",
+  "requested_ship_date": "2026-11-12",
+  "buyer": {
+    "company": "Northfield Market Co.",
+    "contact_name": "Dana Reyes",
+    "email": "dreyes@northfieldmarket.example",
+    "phone": "(555) 014-2290"
+  },
+  "bill_to": {
+    "name": "Northfield Market Co.",
+    "street": "1500 Harbor Street",
+    "city": "Duluth",
+    "state": "MN",
+    "zip": "55802"
+  },
+  "ship_to": {
+    "name": "Northfield Market Co. Distribution",
+    "street": "77 Lakeshore Drive",
+    "city": "Superior",
+    "state": "WI",
+    "zip": "54880",
+    "store_number": ""
+  },
+  "payment_terms": "Net 30",
+  "currency": "USD",
+  "lines": [
+    {
+      "line": 1,
+      "sku": "CT-1200",
+      "customer_item": "NM-40121",
+      "description": "Heavy-Duty Platform Truck Cart, 1200 lb",
+      "qty": 6,
+      "uom": "EA",
+      "unit_price": 1240.0,
+      "extended": 7440.0
+    },
+    {
+      "line": 2,
+      "sku": "CT-0800",
+      "customer_item": "NM-40118",
+      "description": "Utility Platform Cart, 800 lb",
+      "qty": 6,
+      "uom": "EA",
+      "unit_price": 895.0,
+      "extended": 5370.0
+    },
+    {
+      "line": 3,
+      "sku": "CT-0500",
+      "customer_item": "NM-40110",
+      "description": "Steel Mesh Utility Cart, 500 lb",
+      "qty": 2,
+      "uom": "EA",
+      "unit_price": 410.0,
+      "extended": 820.0
+    },
+    {
+      "line": 4,
+      "sku": "CT-0350",
+      "customer_item": "NM-40102",
+      "description": "Folding Hand Cart, 350 lb",
+      "qty": 2,
+      "uom": "EA",
+      "unit_price": 345.0,
+      "extended": 690.0
+    }
+  ],
+  "subtotal": 14320.0,
+  "freight": 0.0,
+  "tax": 0.0,
+  "total": 14320.0,
+  "notes": "Deliver to Receiving Dock B, 7am-3pm weekdays."
+}

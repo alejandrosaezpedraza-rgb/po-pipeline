@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PO Intake · Corvane Steel Works</title>
+<link rel="icon" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark"></span><b>PO Intake</b><span class="sub">Corvane Steel Works · demo</span></div>
+  <nav>
+    <a href="#/" data-route="pipeline">Pipeline</a>
+    <a href="#/crm" data-route="crm">CRM</a>
+    <a id="erp-link" href="http://127.0.0.1:7811/" target="_blank" rel="noopener">ERP ↗</a>
+  </nav>
+  <div class="badges" id="badges"></div>
+  <div class="actions">
+    <div class="samples">
+      <button class="ghost" id="samples-btn" aria-haspopup="true">Try a sample ▾</button>
+      <div class="menu" id="samples-menu" hidden></div>
+    </div>
+    <label class="ghost btn" for="file-input">Choose PDF</label>
+    <input type="file" id="file-input" accept="application/pdf,.pdf" hidden>
+    <button class="ghost" id="reset-btn">Reset</button>
+  </div>
+</header>
+
+<main id="view-pipeline">
+  <section class="canvas" id="canvas">
+    <svg class="wires" id="wires"></svg>
+    <div class="col c1"><div class="node" id="n-arrive"></div></div>
+    <div class="col c2"><div class="node" id="n-read"></div></div>
+    <div class="col c3"><div class="node" id="n-review"></div></div>
+    <div class="col c4">
+      <div class="node" id="n-erp"></div>
+      <div class="node" id="n-crm"></div>
+      <div class="node" id="n-folder"></div>
+    </div>
+    <div class="col c5"><div class="node" id="n-email"></div></div>
+  </section>
+  <section class="log">
+    <div class="log-head"><b>Run log</b><span id="log-count"></span></div>
+    <ol id="log"></ol>
+  </section>
+</main>
+
+<main id="view-crm" hidden>
+  <div class="crm">
+    <aside><h2>Companies</h2><ul id="crm-list"></ul></aside>
+    <section id="crm-detail"></section>
+  </div>
+</main>
+
+<div class="drop" id="drop" hidden><div>Drop a PO PDF to start</div></div>
+
+<div class="sheet-wrap" id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <div class="sheet-head">
+      <div><h2 id="sheet-title">Review PO</h2><span class="dim" id="sheet-sub"></span></div>
+      <button class="icon" id="sheet-close" aria-label="Close">✕</button>
+    </div>
+    <div class="sheet-body">
+      <div class="pdf-pane"><iframe id="pdf-frame" title="Purchase order PDF"></iframe></div>
+      <form class="form-pane" id="review-form" autocomplete="off"></form>
+    </div>
+    <div class="sheet-foot">
+      <div class="chips" id="sheet-chips"></div>
+      <div class="foot-msg" id="sheet-msg"></div>
+      <button type="button" class="ghost" id="sheet-cancel">Close</button>
+      <button type="button" class="primary" id="sheet-accept">Accept</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>

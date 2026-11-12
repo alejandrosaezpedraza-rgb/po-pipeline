@@ -1,0 +1,75 @@
+{
+  "po_number": "BWF-4500172",
+  "po_date": "2026-10-26",
+  "requested_ship_date": "2026-11-09",
+  "buyer": {
+    "company": "BRISTOW WHOLESALE FOODS INC",
+    "contact_name": "MARCUS TEALE",
+    "email": "mteale@bristowfoods.example",
+    "phone": "(555) 013-7741"
+  },
+  "bill_to": {
+    "name": "BRISTOW WHOLESALE FOODS INC",
+    "street": "2200 MILL RACE RD",
+    "city": "COLUMBUS",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "ship_to": {
+    "name": "BRISTOW DISTRIBUTION CENTER 07",
+    "street": "9100 RICKENBACKER PKWY",
+    "city": "COLUMBUS",
+    "state": "OH",
+    "zip": "43217",
+    "store_number": "DC07"
+  },
+  "payment_terms": "Net 45",
+  "currency": "USD",
+  "lines": [
+    {
+      "line": 1,
+      "sku": "SH-7248",
+      "customer_item": "100-4417",
+      "description": "BOLTLESS SHELVING 72X48X24 5-SHELF",
+      "qty": 12,
+      "uom": "EA",
+      "unit_price": 318.0,
+      "extended": 3816.0
+    },
+    {
+      "line": 2,
+      "sku": "SH-WIRE",
+      "customer_item": "100-4420",
+      "description": "CHROME WIRE SHELVING 72X36X18",
+      "qty": 20,
+      "uom": "EA",
+      "unit_price": 164.25,
+      "extended": 3285.0
+    },
+    {
+      "line": 3,
+      "sku": "CT-0500",
+      "customer_item": "220-0915",
+      "description": "STEEL MESH UTILITY CART 500 LB",
+      "qty": 5,
+      "uom": "EA",
+      "unit_price": 410.0,
+      "extended": 2050.0
+    },
+    {
+      "line": 4,
+      "sku": "AC-CAST4",
+      "customer_item": "220-0990",
+      "description": "REPLACEMENT CASTER SET 4PK",
+      "qty": 10,
+      "uom": "PK",
+      "unit_price": 78.0,
+      "extended": 780.0
+    }
+  ],
+  "subtotal": 9931.0,
+  "freight": 285.0,
+  "tax": 0.0,
+  "total": 10216.0,
+  "notes": ""
+}

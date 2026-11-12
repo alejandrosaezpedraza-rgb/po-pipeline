@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "edi-printout",
+    "company": "BRISTOW WHOLESALE FOODS INC",
+    "contact_name": "MARCUS TEALE",
+    "email": "mteale@bristowfoods.example",
+    "phone": "(555) 013-7741",
+    "bill_to": {
+      "name": "BRISTOW WHOLESALE FOODS INC",
+      "street": "2200 MILL RACE RD",
+      "city": "COLUMBUS",
+      "state": "OH",
+      "zip": "43215"
+    },
+    "ship_to": {
+      "name": "BRISTOW DISTRIBUTION CENTER 07",
+      "street": "9100 RICKENBACKER PKWY",
+      "city": "COLUMBUS",
+      "state": "OH",
+      "zip": "43217",
+      "store_number": "DC07"
+    },
+    "payment_terms": "Net 45",
+    "crm": {
+      "name": "Bristow Wholesale Foods, Inc.",
+      "payment_terms": "Net 45",
+      "bill_to": {
+        "name": "Bristow Wholesale Foods, Inc.",
+        "street": "2200 Mill Race Road",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43215"
+      },
+      "addresses": [
+        {
+          "name": "Bristow Wholesale Foods, Inc.",
+          "street": "2200 Mill Race Road",
+          "city": "Columbus",
+          "state": "OH",
+          "zip": "43215"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Marcus Teale",
+          "email": "mteale@bristowfoods.example",
+          "phone": "(555) 013-7741"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "corporate-form",
+    "company": "Northfield Market Co.",
+    "contact_name": "Dana Reyes",
+    "email": "dreyes@northfieldmarket.example",
+    "phone": "(555) 014-2290",
+    "bill_to": {
+      "name": "Northfield Market Co.",
+      "street": "1500 Harbor Street",
+      "city": "Duluth",
+      "state": "MN",
+      "zip": "55802"
+    },
+    "ship_to": {
+      "name": "Northfield Market Co. Distribution",
+      "street": "77 Lakeshore Drive",
+      "city": "Superior",
+      "state": "WI",
+      "zip": "54880",
+      "store_number": ""
+    },
+    "payment_terms": "Net 30",
+    "crm": null
+  },
+  {
+    "slug": "store-order",
+    "company": "Pinecrest Hardware & Home",
+    "contact_name": "Priya Natarajan",
+    "email": "store0417@pinecresthome.example",
+    "phone": "(555) 018-0417",
+    "bill_to": {
+      "name": "Pinecrest Home Centers LLC",
+      "street": "1 Pinecrest Plaza",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "ship_to": {
+      "name": "Pinecrest Hardware & Home",
+      "street": "880 Route 9",
+      "city": "Fishkill",
+      "state": "NY",
+      "zip": "12524",
+      "store_number": "0417"
+    },
+    "payment_terms": "2% 10 Net 30",
+    "crm": {
+      "name": "Pinecrest Home Centers LLC",
+      "payment_terms": "2% 10 Net 30",
+      "bill_to": {
+        "name": "Pinecrest Home Centers LLC",
+        "street": "1 Pinecrest Plaza",
+        "city": "Albany",
+        "state": "NY",
+        "zip": "12207"
+      },
+      "addresses": [
+        {
+          "name": "Pinecrest Home Centers LLC",
+          "street": "1 Pinecrest Plaza",
+          "city": "Albany",
+          "state": "NY",
+          "zip": "12207"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Owen Halloway",
+          "email": "ap@pinecresthome.example",
+          "phone": "(555) 018-1000"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "change-form",
+    "company": "Calloway Logistics Group",
+    "contact_name": "Imani Brooks",
+    "email": "ibrooks@calloway-logistics.example",
+    "phone": "(555) 016-8830",
+    "bill_to": {
+      "name": "Calloway Logistics Group",
+      "street": "3100 Commerce Blvd",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "38118"
+    },
+    "ship_to": {
+      "name": "Calloway Memphis Cross-Dock",
+      "street": "4400 Airways Blvd",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "38116",
+      "store_number": ""
+    },
+    "payment_terms": "Net 30",
+    "crm": {
+      "name": "Calloway Logistics Group",
+      "payment_terms": "Net 30",
+      "bill_to": {
+        "name": "Calloway Logistics Group",
+        "street": "3100 Commerce Blvd",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38118"
+      },
+      "addresses": [
+        {
+          "name": "Calloway Logistics Group",
+          "street": "3100 Commerce Blvd",
+          "city": "Memphis",
+          "state": "TN",
+          "zip": "38118"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Imani Brooks",
+          "email": "ibrooks@calloway-logistics.example",
+          "phone": "(555) 016-8830"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "distributor-po",
+    "company": "Meridian Industrial Distributors",
+    "contact_name": "Tomas Lindqvist",
+    "email": "tlindqvist@meridianind.example",
+    "phone": "(555) 019-4482",
+    "bill_to": {
+      "name": "Meridian Industrial Distributors",
+      "street": "P.O. Box 4410",
+      "city": "Tulsa",
+      "state": "OK",
+      "zip": "74101"
+    },
+    "ship_to": {
+      "name": "Meridian Branch 22 - Oklahoma City",
+      "street": "1850 Industrial Blvd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "73108",
+      "store_number": "22"
+    },
+    "payment_terms": "Net 30",
+    "crm": null
+  }
+]

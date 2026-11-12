@@ -1,0 +1,7 @@
+# Line endings stay LF everywhere (start.sh must run on Linux and macOS too).
+* text=auto eol=lf
+
+# The sample POs are binary: never touch their bytes.
+*.pdf binary
+*.png binary
+*.woff2 binary

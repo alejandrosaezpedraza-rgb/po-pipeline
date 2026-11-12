@@ -1,0 +1,115 @@
+{
+  "po_number": "MID-2026-009482",
+  "po_date": "2026-10-27",
+  "requested_ship_date": "2026-11-18",
+  "buyer": {
+    "company": "Meridian Industrial Distributors",
+    "contact_name": "Tomas Lindqvist",
+    "email": "tlindqvist@meridianind.example",
+    "phone": "(555) 019-4482"
+  },
+  "bill_to": {
+    "name": "Meridian Industrial Distributors",
+    "street": "P.O. Box 4410",
+    "city": "Tulsa",
+    "state": "OK",
+    "zip": "74101"
+  },
+  "ship_to": {
+    "name": "Meridian Branch 22 - Oklahoma City",
+    "street": "1850 Industrial Blvd",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "zip": "73108",
+    "store_number": "22"
+  },
+  "payment_terms": "Net 30",
+  "currency": "USD",
+  "lines": [
+    {
+      "line": 1,
+      "sku": "WB-7236H",
+      "customer_item": "MID-55120",
+      "description": "HD WORKBENCH 72X36 W/DRAWERS",
+      "qty": 4,
+      "uom": "EA",
+      "unit_price": 1135.0,
+      "extended": 4540.0
+    },
+    {
+      "line": 2,
+      "sku": "WB-7236",
+      "customer_item": "MID-55118",
+      "description": "STEEL WORKBENCH 72X36 HARDWOOD TOP",
+      "qty": 6,
+      "uom": "EA",
+      "unit_price": 790.0,
+      "extended": 4740.0
+    },
+    {
+      "line": 3,
+      "sku": "WB-4824",
+      "customer_item": "MID-55102",
+      "description": "COMPACT WORKBENCH 48X24",
+      "qty": 4,
+      "uom": "EA",
+      "unit_price": 455.0,
+      "extended": 1820.0
+    },
+    {
+      "line": 4,
+      "sku": "WB-ESD",
+      "customer_item": "MID-55140",
+      "description": "ESD SAFE WORKBENCH 60X30",
+      "qty": 2,
+      "uom": "EA",
+      "unit_price": 960.0,
+      "extended": 1920.0
+    },
+    {
+      "line": 5,
+      "sku": "SH-8448",
+      "customer_item": "MID-31207",
+      "description": "WIDE-SPAN SHELVING 84X48X24 5 SHELF",
+      "qty": 10,
+      "uom": "EA",
+      "unit_price": 449.0,
+      "extended": 4490.0
+    },
+    {
+      "line": 6,
+      "sku": "SH-ADD",
+      "customer_item": "MID-31208",
+      "description": "ADD-ON SHELVING UNIT 72X48X24",
+      "qty": 10,
+      "uom": "EA",
+      "unit_price": 242.0,
+      "extended": 2420.0
+    },
+    {
+      "line": 7,
+      "sku": "SH-CAB",
+      "customer_item": "MID-31260",
+      "description": "STEEL STORAGE CABINET 78X36X24",
+      "qty": 3,
+      "uom": "EA",
+      "unit_price": 512.0,
+      "extended": 1536.0
+    },
+    {
+      "line": 8,
+      "sku": "CT-TUB",
+      "customer_item": "MID-12044",
+      "description": "TILT BIN CART 12 CU FT",
+      "qty": 2,
+      "uom": "EA",
+      "unit_price": 560.0,
+      "extended": 1120.0
+    }
+  ],
+  "subtotal": 22586.0,
+  "freight": 785.0,
+  "tax": 0.0,
+  "total": 23371.0,
+  "notes": "Resale, tax exempt certificate on file. Show PO number on all packing lists."
+}
